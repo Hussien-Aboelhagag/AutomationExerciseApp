@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="automationExercise Regression Suite" verbose="1">
+    <parameter name="browser" value="chrome">
+    <test name="com.automationExercise.TestCases">
+        <classes>
+            <class name="com.automationExercise.TestCases.SignupLoginPage"/>
+            <class name="com.automationExercise.TestCases.UserRegistrationTest"/>
+            <class name="com.automationExercise.TestCases.SignUpSuccessfulTest"/>
+           <!-- <class name="com.automationExercise.TestCases.LogOutTest"/> -->
+            <class name="com.automationExercise.TestCases.DeleteAccountTest"/>
+            <class name="com.automationExercise.TestCases.LoginTest"/>
+            <class name="com.automationExercise.TestCases.SearchTest"/>
+            <class name="com.automationExercise.TestCases.ContactUsTest"/>
+            <class name="com.automationExercise.TestCases.SubscriptionInHomepageTest"/>
+            <class name="com.automationExercise.TestCases.ProductDetailsTest"/>
+            <class name="com.automationExercise.TestCases.CartTest"/>
+            <class name="com.automationExercise.TestCases.CheckoutTest"/>
+            <class name="com.automationExercise.TestCases.PaymentTest"/>
+            <class name="com.automationExercise.TestCases.PlaceOrderTest"/>
+        </classes>
+    </test>
+
+    </parameter>
+</suite>
